@@ -12,7 +12,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -28,10 +28,11 @@
 }
 
 .sign-in-btn a{
-    padding: 8px 16px;
+    padding: 6px 18px;
     border-radius: 4px;
     background-color: #E50914;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
+    font-weight: 700;
 }
