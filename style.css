@@ -146,3 +146,37 @@ body{
     font-size: 20px;
     font-weight: 400;
 }
+
+.side-links .container{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.side-links .container .link-container-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-links .container .link-container-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-links .container .link-container-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.side-links .container .link-container-4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-links .container a{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px;
+}
