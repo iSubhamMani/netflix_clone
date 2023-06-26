@@ -15,7 +15,7 @@
 
 .header{
     padding-bottom: 200px;
-    border-bottom: 12px solid #3c3c3c;
+    border-bottom: 10px solid #3c3c3c;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(./img/Netflix-Background.jpg);
 }
 
