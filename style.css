@@ -7,6 +7,10 @@
     color: #fff;
 }
 
+body{
+    background-color: black;
+}
+
 ::placeholder {
     color: #fff;
     opacity: 1;
@@ -15,7 +19,7 @@
 
 .header{
     padding-bottom: 200px;
-    border-bottom: 10px solid #3c3c3c;
+    border-bottom: 8px solid #3c3c3c;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(./img/Netflix-Background.jpg);
 }
 
@@ -51,6 +55,10 @@
 
 .page-header{
     margin-top: 150px;
+}
+
+.page-header .page-header-container{
+    margin: 0 16px;
 }
 
 .header .container .page-header .page-header-container .welcome-message{
@@ -112,4 +120,29 @@
 .get-started input:focus{
     outline: none;
     border: 1px solid #E50914;
+}
+
+.features-section .container .card {
+    display: flex;
+    align-items: center;
+    padding: 100px 16px;
+}
+
+.features-section .container .card-2{
+    flex-direction: row-reverse;
+}
+
+.features-section .container .card-4{
+    flex-direction: row-reverse;
+}
+
+.features-section .container .card .feature-description h1{
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.features-section .container .card .feature-description p{
+    font-size: 20px;
+    font-weight: 400;
 }
